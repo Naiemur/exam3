@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     /* background: url(backgrond.jpg);  */
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+42&1+0,1+0,1+0,1+22,1+32,1+32,1+39,1+39,0+100 */
+    background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(80,138,194,1) 22%, rgba(103,162,213,1) 32%, rgba(118,178,226,1) 39%, rgba(125,185,232,0.95) 42%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(80,138,194,1) 22%,rgba(103,162,213,1) 32%,rgba(118,178,226,1) 39%,rgba(125,185,232,0.95) 42%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(80,138,194,1) 22%,rgba(103,162,213,1) 32%,rgba(118,178,226,1) 39%,rgba(125,185,232,0.95) 42%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+    ;
+    font-family: 'Roboto',sans-serif ;
+    height: 1100px;
+    width: 100%;
+    
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6{
+     font-family: 'Roboto Slab'sans-serif; 
+ 
+ }
+
+         /* google fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&family=Roboto:wght@,400;500;700&display=swap'); 
+
+.top-header{
+    background: #2F3A48;
+    padding: 5px 0; 
+    font-size: 12px;   
+}
+.container {
+	width:1200px;
+	margin:0 auto;
+	padding:0 15px;
+}
+.container:before,
+.container:after{
+ content:"";
+display: table;
+clear:both;
+}
+.top-header a{
+    color:#fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.top-left{
+    display: inline-block;
+}
+
+
+.top-left a{
+    display: inline-block;
+    padding: 5px;
+}
+.top-left i{
+    padding: 5px;
+}
+
+.col-70{
+     display: inline-block; 
+}
+.top-right{
+    float: right;
+   
+    
+}
+.top-right a{
+    display: inline-block;
+    padding: 5px;
+    
+}
+.middle{
+    float: right;
+    padding: 10px 10px;
+}
+.menu a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.menu a:hover{
+    color: red;
+}
+.trangation{
+    height: 400px;
+    width: 250px;
+    background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D */
+    background: rgb(180,227,145); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(180,227,145,1) 0%, rgba(97,196,25,1) 50%, rgba(180,227,145,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+    );
+    margin-top: 200px;
+    margin-left: 600px;
+    float: right;
+    transform: skew(15deg);
+    animation-name: naim;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    position: relative;
+}
+@keyframes naim{
+    from{
+        background: maroon;
+        left: 50px;
+        top: 0;
+    }
+    to{
+        background: blue;
+        left: 100px;
+        top: 0;
+    }
+
+}
+.transform{
+    height: 400px;
+    width: 250px;
+    background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2825b+0,e55b2b+47,f07146+69 */
+    background: rgb(242,130,91); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(242,130,91,1) 0%, rgba(229,91,43,1) 47%, rgba(240,113,70,1) 69%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(242,130,91,1) 0%,rgba(229,91,43,1) 47%,rgba(240,113,70,1) 69%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(242,130,91,1) 0%,rgba(229,91,43,1) 47%,rgba(240,113,70,1) 69%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2825b', endColorstr='#f07146',GradientType=0 ); /* IE6-9 */
+    
+     margin-top: 300px; 
+     margin-left: 400px; 
+    /* float: right; */
+    transform: skew(15deg);
+    animation-name: rana;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    position: relative;
+}
+@keyframes rana{
+    from{
+        background: darkblue;
+        left: 50px;
+        top: 0;
+    }
+    to{
+        background: magenta;
+        left: 100px;
+        top: 0;
+    }
+
+}
+.redius{
+    height: 200px;
+    width: 200px;
+    animation-name: rahi;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+@keyframes rahi{
+    from{
+        background: orange;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+    to{
+        background: olive;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+}
+.proredius{
+    height: 200px;
+    width: 200px;
+    animation-name: raju;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    position: relative;
+   
+   
+    margin-top: 50px;
+
+}
+@keyframes raju{
+    from{
+        background: cyan;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+    to{
+        background: sienna;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+}
